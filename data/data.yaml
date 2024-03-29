@@ -1,6 +1,6 @@
-train: /Users/msapple/Desktop/yolov9/ppedata/train/images
-val: /Users/msapple/Desktop/yolov9/ppedata/valid/images
-test: /Users/msapple/Desktop/yolov9/ppedata/test/images
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
 nc: 5
 names: ['boots', 'gloves', 'helmet', 'human', 'vest']
