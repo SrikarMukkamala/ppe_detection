@@ -1,0 +1,13 @@
+train: /Users/msapple/Desktop/yolov9/ppedata/train/images
+val: /Users/msapple/Desktop/yolov9/ppedata/valid/images
+test: /Users/msapple/Desktop/yolov9/ppedata/test/images
+
+nc: 5
+names: ['boots', 'gloves', 'helmet', 'human', 'vest']
+
+roboflow:
+  workspace: huiyao-hu-sj18e
+  project: construction-ppe-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/huiyao-hu-sj18e/construction-ppe-detection/dataset/1
